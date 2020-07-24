@@ -53,6 +53,12 @@
         <v-spacer />
 
         <v-btn icon>
+          <nuxt-link to="login">
+            <v-icon>forward</v-icon>
+          </nuxt-link>
+        </v-btn>
+
+        <v-btn icon>
           <nuxt-link to="menu">
             <v-icon>home</v-icon>
           </nuxt-link>
